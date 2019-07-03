@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 class Counter extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {counter: 0};
+    this.state = { counter: 0 };
   }
 
   handleButtonClick = (e) => {
@@ -18,7 +19,7 @@ class Counter extends React.Component {
 
 
   render() {
-    const counter = this.state.counter;
+    const { counter } = this.state;
     let color;
     const colorIncrement = { color: 'blue' };
     const colorDecrement = { color: 'red' };
@@ -31,10 +32,10 @@ class Counter extends React.Component {
     return (
       <div>
         <h4 className='count' style={color}>{this.state.counter}</h4>
-        <a href="#" onClick={this.handleButtonClick}>
+        <a className='increment' href="#" onClick={this.handleButtonClick}>
           Going up
         </a>
-        <a href="#" onClick={this.handleDecrementClick}>
+        <a className='decrement' href="#" onClick={this.handleDecrementClick}>
           Going down
         </a>
       </div>
