@@ -5,8 +5,8 @@
 ### Links and Resources
 * [submission PR](https://github.com/401-advanced-javascript-felipe/lab27-reactTestingAndDeployment/pull/1)
 * [travis](https://travis-ci.com/401-advanced-javascript-felipe/lab27-reactTestingAndDeployment)
-* [Netlify](http://xyz.com)
-* [AWS](http://xyz.com)
+* [Netlify](https://gifted-booth-86ec49.netlify.com/)
+* [AWS](http://lab27-counter-react.s3-website-us-west-2.amazonaws.com/)
 
 #### Documentation
 * [styleguide](styleguide\index.html)
