@@ -7,11 +7,21 @@ class Counter extends React.Component {
     this.state = { counter: 0 };
   }
 
+  /**
+ * Increments count
+ *
+ * @param {event} object
+ */
   handleButtonClick = (e) => {
     e.preventDefault();
     this.setState({ counter: this.state.counter + 1 });
   }
 
+  /**
+ * Decreases count
+ *
+ * @param {event} object
+ */
   handleDecrementClick = (e) => {
     e.preventDefault();
     this.setState({ counter: this.state.counter - 1 });
@@ -32,12 +42,12 @@ class Counter extends React.Component {
     return (
       <div>
         <h4 className='count' style={color}>{this.state.counter}</h4>
-        <a className='increment' href="#" onClick={this.handleButtonClick}>
+        <span className='increment' href="#" onClick={this.handleButtonClick}>
           Going up
-        </a>
-        <a className='decrement' href="#" onClick={this.handleDecrementClick}>
+        </span>
+        <span className='decrement' href="#" onClick={this.handleDecrementClick}>
           Going down
-        </a>
+        </span>
       </div>
     );
   }

@@ -7,19 +7,19 @@ exports[`<Counter/> Snapshot Test renders correctly 1`] = `
   >
     0
   </h4>
-  <a
+  <span
     className="increment"
     href="#"
     onClick={[Function]}
   >
     Going up
-  </a>
-  <a
+  </span>
+  <span
     className="decrement"
     href="#"
     onClick={[Function]}
   >
     Going down
-  </a>
+  </span>
 </div>
 `;
