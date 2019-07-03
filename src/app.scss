@@ -1,0 +1,35 @@
+$backgroundColor: #524162;
+$align: center;
+$space: 10%;
+$size: 2em;
+$accentColor: #de4a31;
+
+body{
+ background-color: $backgroundColor;
+ text-align: $align;
+}
+
+header{
+  background-color: #c58bcd;
+  color: $accentColor;
+}
+
+a {
+ margin: $space;
+ font-size: $size;
+ text-decoration: none;
+ color: $accentColor;
+}
+
+h4{
+ color: $accentColor;
+ font-size: $size * 3;
+ font-family: cursive;
+ margin: $space;
+}
+
+footer{
+ margin-top: $space;
+ color: $accentColor;
+ font-size: $size;
+}
