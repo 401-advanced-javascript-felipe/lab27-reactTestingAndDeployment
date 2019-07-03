@@ -1,47 +1,28 @@
-# LAB - 
+# LAB - 27 Testing and Deployment 
 
-## Project Name
-
-### Author: Student/Group Name
+### Author: Felipe Delatorre
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-felipe/lab27-reactTestingAndDeployment/pull/1)
+* [travis](https://travis-ci.com/401-advanced-javascript-felipe/lab27-reactTestingAndDeployment)
+* [Netlify](https://gifted-booth-86ec49.netlify.com/)
+* [AWS](http://lab27-counter-react.s3-website-us-west-2.amazonaws.com/)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [styleguide](styleguide\index.html)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `Counter.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+`handleButtonClick(e)` Increase the counter by one
 
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+`handleDecrementClick(e)` Decreases the counter by one
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
+* `npm start` - Will start at localhost:3000
+
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* `npm test` - Will run 3 tests for counter
 
 #### UML
-![](./assets/----.jpg)
-# lab27-reactTestingAndDeployment
+![](./assets/lab27.jpg)
